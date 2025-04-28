@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section {
+  margin-bottom: 100px;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+}
+#logoBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 0 0;
+  font-size: 2rem;
+  align-items: center;
+}
+.leftTitle {
+  padding-right: 60%;
+}
+.blueContainer {
+  display: flex;
+  margin-top: 225px;
+  gap: 20px;
+  background-color: white;
+  align-items: center;
+  padding: 0 17%;
+  text-align: left;
+  margin-bottom: 225px;
+}
+h2 {
+  margin: 0 0;
+  font-weight: bolder;
+  font-size: 4rem;
+  line-height: 90%;
+}
+h3 {
+  margin: 0 0;
+  font-size: 1.75rem;
+  line-height: 90%;
+  font-weight: bolder;
+}
+h4 {
+  padding-top: 5px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+}
+.navBarItem:hover {
+  text-decoration: underline;
+}
+.left {
+  display: flex;
+  text-align: left;
+  margin-left: 3.5%;
+}
+.right {
+  display: flex;
+  text-align: right;
+  margin-right: 30px;
+  gap: 30px;
+}
+.textRight {
+  text-align: right;
+}
+.darkBlue {
+  color: #2c456b;
+}
+.lightBlue {
+  color: #3c649f;
+}
+.line {
+  flex-grow: 1;
+  height: 4px;
+  background-color: black;
+  display: inline-block;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.lineRight {
+  flex-grow: 1;
+  height: 4px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 10px;
+}
+.lineLeft {
+  flex-grow: 1;
+  height: 4px;
+  background-color: black;
+  display: inline-block;
+  margin-right: 0px;
+}
+.whiteContainer {
+  background-color: white;
+  padding: 0 17%;
+  text-align: left;
+  align-items: center;
+  justify-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.resumeContainer {
+  padding: 0 22%;
+  background-color: white;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+.resumeContainer > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: medium;
+}
+.timeSpan {
+  justify-self: left;
+  text-align: right;
+  font-size: xx-small;
+  font-weight: bolder;
+  width: 30%;
+  flex: 0 0 auto;
+}
+.resumeEntry {
+  display: flex;
+  gap: 20px;
+  font-weight: normal;
+  align-items: center;
+}
+.activity {
+  flex: 1 1 auto;
+  text-align: left;
+  font-size: medium;
+}
+h4 {
+  margin: 0 0;
+  padding: 0 0;
+  font-size: large;
+}
+.short {
+  height: 150px;
+  margin-bottom: 0px;
+}
+.medium {
+  height: 500px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.tall {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 600px;
+}
+.menuContainer {
+  background-color: white;
+  align-items: left;
+  padding: 0 10px;
+}
+br.wideBreak {
+  margin-bottom: 10px;
+}
+#staffGallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.top {
+  align-self: flex-start;
+}
+.bottom {
+  align-self: flex-end;
+}
+.subheader {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.galleryImage {
+  width: 20vw;
+  margin: 5px;
+}
+.overviewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.align-left {
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+.smallerh1 {
+  font-size: 1.75rem;
+}
+.smallerh2 {
+  font-size: 1.25rem;
+}
+.align-right {
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+.combinedHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.overviewImage {
+  margin-top: 30px;
+  width: 80%;
+}
+.sectionImage {
+  width: 40%;
+}
+.stateImage {
+  width: 40vw;
+  margin: 5px;
+}
+.figmaImage {
+  width: 70vw;
+  margin: 5px;
+}
+.reflection {
+  margin-top: 10px;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+.imageBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+table {
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid darkgray;
+  padding: 8px;
+  text-align: left;
+}
