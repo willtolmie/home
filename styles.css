@@ -47,13 +47,28 @@ h1 {
   display: flex;
   margin-top: 30vh;
   gap: 20px;
-  align-items: center;
   text-align: left;
   margin-bottom: 30vh;
 }
+.intro {
+  align-self: center;
+}
+.imageBox {
+  background-image: url("assets/1727080333814.jpeg");
+  background-size: cover;
+  align-self: center;
+  width: 20vw;
+  height: 20vw;
+}
 .galleryImage {
   width: 20vw;
-  margin: 5px;
+  height: 20vw;
+  object-fit: cover;
+}
+.imageBox:hover .mainImage {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
 }
 h2 {
   margin: 0 0;
