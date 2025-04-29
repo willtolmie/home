@@ -224,6 +224,29 @@ h4 {
   border-radius: 10px;
   margin-bottom: 15px;
 }
+.associatedProjectsContainer {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  font-size: small;
+  font-style: italic;
+}
+.associatedProject {
+  border-radius: 20px;
+  padding: 10px;
+}
+.associatedProject:hover {
+  background-color: white;
+  transition: 0.3s;
+}
+.associatedProjectImage {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
 h4 {
   margin: 0 0;
   padding: 0 0;
