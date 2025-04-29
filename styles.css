@@ -152,7 +152,7 @@ h4 {
   padding-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
-  border-radius: 10px;
+  border-radius: 30px;
   width: 630px;
 }
 .resumeHover:hover {
@@ -164,113 +164,53 @@ h4 {
   text-align: left;
   font-size: medium;
 }
+.projectContainer {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: normal;
+  gap: 20px;
+}
+.project {
+  flex: 1 1 auto;
+  text-align: left;
+  font-size: medium;
+  font-weight: normal;
+}
+.projectName {
+  color: black;
+}
+.projectName:hover {
+  color: navy;
+  transition: 0.3s;
+}
+.companyName {
+  margin-top: 5px;
+  font-weight: normal;
+  color: black;
+}
+.companyName:hover {
+  margin-top: 5px;
+  font-weight: normal;
+  color: blue;
+  transition: 0.3s;
+}
+.projectImage {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
 h4 {
   margin: 0 0;
   padding: 0 0;
   font-size: large;
-}
-.short {
-  height: 150px;
-  margin-bottom: 0px;
-}
-.medium {
-  height: 500px;
-  margin-top: 10px;
-  margin-bottom: 60px;
-}
-.tall {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 600px;
-}
-.menuContainer {
-  background-color: white;
-  align-items: left;
-  padding: 0 10px;
-}
-br.wideBreak {
-  margin-bottom: 10px;
-}
-#staffGallery {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.top {
-  align-self: flex-start;
-}
-.bottom {
-  align-self: flex-end;
-}
-.subheader {
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-.overviewContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-  margin-top: 10px;
-  margin-bottom: 60px;
-}
-.align-left {
-  align-self: flex-start;
-  justify-self: flex-start;
-}
-.smallerh1 {
-  font-size: 1.75rem;
-}
-.smallerh2 {
-  font-size: 1.25rem;
-}
-.align-right {
-  justify-self: flex-end;
-  align-self: flex-end;
-}
-.combinedHeaderContainer {
-  display: flex;
-  justify-content: space-between;
-}
-.overviewImage {
-  margin-top: 30px;
-  width: 80%;
-}
-.sectionImage {
-  width: 40%;
-}
-.stateImage {
-  width: 40vw;
-  margin: 5px;
-}
-.figmaImage {
-  width: 70vw;
-  margin: 5px;
-}
-.reflection {
-  margin-top: 10px;
-  padding-bottom: 5px;
-  width: 50%;
-  margin: 0 auto;
-  text-align: left;
-}
-.imageBox {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-}
-table {
-  margin-top: 10px;
-  width: 100%;
-  border-collapse: collapse;
-}
-th,
-td {
-  border: 1px solid darkgray;
-  padding: 8px;
-  text-align: left;
 }
