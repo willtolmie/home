@@ -88,8 +88,13 @@ h4 {
   padding-bottom: 5px;
   margin-bottom: 0px;
 }
+.navBarItem {
+  color: black;
+  text-decoration: none;
+}
 .navBarItem:hover {
-  text-decoration: underline;
+  color: navy;
+  transition: 0.3s;
 }
 .right {
   display: flex;
@@ -168,7 +173,7 @@ h4 {
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 30px;
-  width: 630px;
+  width: 650px;
 }
 .resumeHover:hover {
   background-color: aliceblue;
@@ -214,7 +219,7 @@ h4 {
 .companyName:hover {
   margin-top: 5px;
   font-weight: normal;
-  color: blue;
+  color: navy;
   transition: 0.3s;
 }
 .projectImage {
@@ -228,16 +233,18 @@ h4 {
   margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 12px;
   font-size: small;
   font-style: italic;
 }
 .associatedProject {
+  color: black;
+  text-decoration: none;
   border-radius: 20px;
-  padding: 10px;
+
 }
 .associatedProject:hover {
-  background-color: white;
+  color: navy;
   transition: 0.3s;
 }
 .associatedProjectImage {
