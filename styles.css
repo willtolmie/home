@@ -259,12 +259,16 @@ h4 {
   }
   .imageBox {
     justify-self: center;
-    width: 50vw;
-    height: 50vw;
+    width: 200px;
+    height: 200px;
   }
   .galleryImage {
-    width: 50vw;
-    height: 50vw;
+    width: 200px;
+    height: 200px;
+  }
+  .intro {
+    justify-self: center;
+    width: 450px;
   }
   .container {
     margin-left: 10px;
