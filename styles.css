@@ -266,4 +266,8 @@ h4 {
     width: 50vw;
     height: 50vw;
   }
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
