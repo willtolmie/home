@@ -36,7 +36,9 @@ body {
 h1 {
   margin: 0 0;
   font-size: 2rem;
-  align-items: center;
+}
+.sectionTitle {
+  justify-self: center;
 }
 .left {
   text-align: left;
@@ -48,6 +50,7 @@ h1 {
   gap: 20px;
   text-align: left;
   margin-bottom: 32vh;
+  justify-self: center;
 }
 .intro {
   align-self: center;
@@ -92,6 +95,7 @@ h4 {
 .navBarItem {
   color: black;
   text-decoration: none;
+  justify-self: flex-start;
 }
 .navBarItem:hover {
   color: navy;
@@ -157,6 +161,7 @@ h4 {
   font-size: medium;
 }
 .projectContainer {
+  justify-self: center;
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -168,6 +173,7 @@ h4 {
   margin-top: 20px;
   margin-right: 10%;
   margin-left: 10%;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10%;
@@ -261,9 +267,6 @@ h4 {
     height: 20vh;
   }
   .resumeHover {
-    width: 100%;
-  }
-  .projectGrid {
     width: 100%;
   }
   .blueContainer {
