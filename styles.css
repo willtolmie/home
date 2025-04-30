@@ -16,12 +16,10 @@ body {
   display: flex;
 }
 .container {
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  align-items: center;
   text-align: center;
   flex: 1;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .sidebar {
   width: max-content;
@@ -44,7 +42,7 @@ h1 {
   text-align: left;
 }
 .blueContainer {
-  width: 67%;
+  width: 100%;
   display: flex;
   margin-top: 32vh;
   gap: 20px;
@@ -54,6 +52,8 @@ h1 {
 }
 .intro {
   align-self: center;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 .imageBox {
   background-image: url("assets/1727080333814.jpeg");
@@ -110,38 +110,32 @@ h4 {
   transition: 0.3s;
 }
 .resumeContainer {
-  background-color: white;
   margin-top: 20px;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 100%;
   font-weight: bolder;
+  justify-self: center;
 }
-.resumeContainer > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: medium;
+.resumeHover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  justify-self: center;
 }
 .timeSpan {
   justify-self: left;
   text-align: right;
   font-size: xx-small;
   font-weight: bolder;
-  width: 17%;
+  width: 15%;
   flex: 0 0 auto;
 }
 .resumeEntry {
+  padding-right: 5%;
+  padding-left: 5%;
   display: flex;
   gap: 20px;
   font-weight: normal;
   align-items: center;
-}
-.resumeHover {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
-  border-radius: 30px;
-  width: 650px;
-  justify-self: center;
 }
 .researcher:hover {
   background-color: aliceblue;
@@ -160,26 +154,16 @@ h4 {
   text-align: left;
   font-size: medium;
 }
-.projectContainer {
-  justify-self: center;
-  margin-right: 10%;
-  margin-left: 10%;
-}
 .projectGrid {
-  justify-self: center;
-  background-color: white;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 20px;
-  margin-right: 10%;
-  margin-left: 10%;
-  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 10%;
-  padding-left: 10%;
   font-weight: normal;
   gap: 20px;
+  justify-self: center;
 }
 .project {
   flex: 1 1 auto;
@@ -256,7 +240,7 @@ h4 {
   border-radius: 10px;
   margin-bottom: 5px;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
   .sidebar {
     display: none;
   }
