@@ -105,10 +105,6 @@ h4 {
   text-decoration: none;
   color: black;
 }
-.resumeLink:hover {
-  color: navy;
-  transition: 0.3s;
-}
 .resumeContainer {
   margin-top: 20px;
   width: 100%;
@@ -202,6 +198,9 @@ h4 {
 .resumeCompanyName:hover {
   color: navy;
   transition: 0.3s;
+}
+.downloadButton {
+  width: 25px;
 }
 .projectImage {
   width: 100%;
